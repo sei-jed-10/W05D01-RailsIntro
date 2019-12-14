@@ -1,5 +1,5 @@
 ![](https://i.imgur.com/mS4bLMs.png)
-# MORNING LAB
+# Rails LAB
 
 ## MORE MIGRATIONS
 
