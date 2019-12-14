@@ -86,6 +86,7 @@ The project is a throwaway, but it should have:
 
 * A User model with name and password
 * The model should be fully testable in Rails console
+* Run CRUD in rails console
 
 **Make any mistakes along the way with migrations?**
 Undoing migrations:
