@@ -112,7 +112,7 @@ You can also open up **Rails console** and check that the column was deleted (No
 
 ## 4. Make a new Rails project
 
-Call it `morning_lab_api`
+Call it `rails_lab_api`
 
 Can you remember the steps involved? Look back over this markdown and make a new project.
 
