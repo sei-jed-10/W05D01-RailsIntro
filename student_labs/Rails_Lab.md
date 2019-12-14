@@ -44,7 +44,7 @@ Now check MySQL workbench that column is added properly
 
 &#x1F535; **Activity**
 
-* Once the migration is complete, create a new Todo with `title`, `description`, and `completed` in rails console.
+* Once the migration is complete, create a new 10 Todos with `title`, `description`, and `completed` in rails console.
 
 <br>
 
@@ -52,14 +52,14 @@ Now check MySQL workbench that column is added properly
 ## 2. Removing columns
 
 ```
-rails g migration RemoveDetailsFromTodos details:string
+rails g migration RemoveDescriptionFromTodos description:string
 ```
 
 In the migration file, we will use the `remove_column` method to remove the column. It takes three arguments: the name of the table to alter, the name of the column to delete, and the datatype of that column:
 
 ```ruby
 def change
-  remove_column :todos, :details, :string
+  remove_column :todos, :description, :string
 end
 ```
 
