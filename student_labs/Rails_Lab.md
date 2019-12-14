@@ -17,7 +17,7 @@ To change any of these things you must run **another migration**.
 
 **Goal:** Add a column called `description` to our Todo table.
 
-`rails g migration AddDescriptionToTodos`
+`rails g migration AddDescriptionToTodos` <columnname>
 
 If you muck up the name of of the migration or something goes wrong, you can remove the migration with
 
