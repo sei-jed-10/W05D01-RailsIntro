@@ -83,7 +83,7 @@ Todo.all
 ## 3. Removing columns
 
 ```
-rails g migration RemoveDetailsInTodos
+rails g migration RemoveDetailsFromTodos details:string
 ```
 
 In the migration file, we will use the `remove_column` method to remove the column. It takes three arguments: the name of the table to alter, the name of the column to delete, and the datatype of that column:
