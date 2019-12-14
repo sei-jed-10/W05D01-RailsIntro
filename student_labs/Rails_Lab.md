@@ -73,9 +73,6 @@ rails db:migrate
 
 Also, open up **Rails console** and check your columns and your data:
 
-```ruby
-Todo.column_names
-```
 
 ```ruby
 Todo.all
