@@ -124,7 +124,7 @@ MVC architecture is very common in web applications, and Rails gives us the tool
 <br>
 <hr>
 
-<img src="https://raw.githubusercontent.com/sei-jed-10/W05D01-RailsIntro/blob/master/MVC.png">
+<img src="https://raw.githubusercontent.com/sei-jed-10/W05D01-RailsIntro/master/MVC.png">
 <br>
 <hr>
 
