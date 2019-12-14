@@ -48,39 +48,8 @@ Now check MySQL workbench that column is added properly
 
 <br>
 
-## 2. Changing columns
 
-Again, if we want to change our schema, we must **run more migrations**. Let's change the name of our `description` column to `details`:
-
-```
-rails g migration ChangeDescriptionInTodosToDetails
-```
-
-In the migration file, we will use the `rename_column` method that takes three arguments: the name of table to alter, the name of the column to alter, and the new column name:
-
-```ruby
-def change
-  rename_column :todos, :description, :details
-end
-```
-Then:
-
-```ruby
-rails db:migrate
-```
-
-* **Check in schema.rb**
-
-Also, open up **Rails console** and check your columns and your data:
-
-
-```ruby
-Todo.all
-```
-
-<br>
-
-## 3. Removing columns
+## 2. Removing columns
 
 ```
 rails g migration RemoveDetailsFromTodos details:string
@@ -107,7 +76,7 @@ You can also open up **Rails console** and check that the column was deleted (No
 
 <br>
 
-## 4. Make a new Rails project
+## 3. Make a new Rails project
 
 Call it `rails_lab_api`
 
